@@ -1,0 +1,22 @@
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(50, 75%, 94%);
+  width: 1000px;
+  border-radius: 100px;
+}
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+}
+.nav-bar li {
+  background-color: hsl(49, 82%, 74%);
+  color: #612406;
+  list-style: none;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 50px;
+}
+.nav-bar li:nth-of-type(3) {
+  padding: 1.5rem;
+}

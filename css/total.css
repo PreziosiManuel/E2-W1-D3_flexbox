@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+}
+
+.nav-bar {
+  background-color: hsl(50, 75%, 94%);
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.nav-bar ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  align-items: center;
+}
+.nav-bar li {
+  background-color: hsl(49, 82%, 74%);
+  color: #612406;
+  list-style: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-block: 1rem;
+  padding: 10px;
+}
+.nav-bar li:nth-of-type(3) {
+  padding: 20px;
+  border-radius: 50px;
+}
+
+/* =============================== CARDS ========================================== */
+#cards {
+  display: flex;
+}
+
+h1 {
+  font-size: 4rem;
+  padding: 2rem;
+  color: #742305;
+}
+.card-honey {
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+  width: 300px;
+  overflow: hidden;
+  background-color: hsl(50, 75%, 94%);
+  margin: 10px;
+}
+.card-honey img {
+  width: 100%;
+}
+
+.card-honey div {
+  display: flex;
+  align-items: center;
+  color: #612406;
+  margin-block: 15px;
+  justify-content: space-around;
+}
+
+.card-honey button {
+  background-color: hsl(49, 82%, 74%);
+  color: #612406;
+  width: 150px;
+  margin-inline: auto;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: none;
+  padding: 7px;
+  font-weight: bold;
+}
+
+.div-h2-p {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-cost {
+  font-weight: bold;
+}
+
+/* =============================== END ========================================== */
+h1:nth-of-type(2) {
+  padding-bottom: 0;
+  margin-top: 1rem;
+}
+.card-desk {
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 20px;
+  background-color: hsl(50, 75%, 94%);
+  overflow: hidden;
+  margin: 2rem;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.card-desk img {
+  margin: 50px;
+}
+.card-desk h2 p {
+  color: #612406;
+}

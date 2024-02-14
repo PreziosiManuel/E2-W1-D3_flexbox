@@ -1,0 +1,13 @@
+.card-desk {
+  display: flex;
+  border-radius: 20px;
+  background-color: hsl(50, 75%, 94%);
+  overflow: hidden;
+}
+
+.card-desk img {
+  margin: 15px;
+}
+.card-desk h2 p {
+  color: #612406;
+}
